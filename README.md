@@ -1,1 +1,1 @@
-# zhihu-card
+# 知乎Card —— 仿知乎圆桌卡片式风格的CSS样式
