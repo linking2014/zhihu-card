@@ -26,6 +26,10 @@ button {
     margin: 0 0 20px 0 !important
 }
 
+#zh-following-question-item-list .zu-button-more {
+    margin: 20px 0 0 !important
+}
+
 .border-pager {
     padding: 0 !important;
     margin: 0 !important;
@@ -52,7 +56,7 @@ button {
 div[class*="zm-meta-panel"][class*="goog-scrollfloater-floating"] {
     padding: 10px 14px !important;
     margin: 0 -1px 0 -1px !important;
-    max-width: 602px;
+    max-width: 640px;
     background-color: #f9fafb !important;
     border: solid 1px #d3d9de !important;
     border-radius: 0 !important;
@@ -149,7 +153,7 @@ a.zu-main-feed-fresh-button {
     border: none !important
 }
 
-.feed-item:not([class*="recommend-feed"]), .zh-question-answer-wrapper .zm-item-answer {
+.feed-item:not([class*="recommend-feed"]), .zh-question-answer-wrapper .zm-item-answer, #zh-favlists-wrap .zm-item {
     background-color: #fff !important;
     border: 1px solid #d3d9de !important;
     border-radius: 3px !important;
@@ -162,6 +166,16 @@ a.zu-main-feed-fresh-button {
     line-height: 25px !important;
     margin: 10px -14px -10px -62px !important;
     border-radius: 0 0 3px 3px !important
+}
+
+#zh-favlists-wrap .zm-item-meta {
+    /*background-color: #fff !important;*/
+    /*border: 1px solid #d3d9de !important;*/
+    /*border-radius: 3px !important;*/
+    /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;*/
+    /*margin: 0 0 20px !important;*/
+    /*padding: 14px 14px 10px !important;*/
+    margin: 10px -14px -10px -14px !important;
 }
 
 #zh-question-log-list-wrap .zm-item-meta {
@@ -195,16 +209,16 @@ a.zu-main-feed-fresh-button {
 
 .question-item-meta {
     background-color: #f9fafb !important;
-    width: 602px !important;
+    /*width: 602px !important;*/
     line-height: 25px !important;
     padding: 10px 14px !important;
-    margin: 10px 0 -10px -14px !important;
+    margin: 10px -14px -10px -14px !important;
     border-radius: 0 0 3px 3px !important
 }
 
 body:not([class*="page-roundtable"]) .zm-comment-box {
-    max-width: 630px !important;
-    width: 630px !important;
+    /*max-width: 630px !important;*/
+    /*width: 630px !important;*/
     margin: 0 -1px -1px -1px !important;
     border: 1px solid #d3d9de !important;
     border-top-color: #eee !important;
@@ -876,15 +890,34 @@ button[class*="zg-btn zg-btn-follow zm-rich-follow-btn small"] {
 }
 
 .zg-section-title {
-    height: 28px !important;
+    /*height: 28px !important;*/
     line-height: 28px !important;
     font-size: 15px !important;
-    background-color: #f9fafb !important;
+    /*background-color: #f9fafb !important;*/
+    background-color: #fff;
     border: 1px solid #d3d9de !important;
     border-radius: 3px !important;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
     padding: 7px 14px !important;
+    /*padding: 0 !important;*/
     margin-bottom: 20px !important
+}
+
+#zh-fav-head-title {
+    margin: 0 !important;
+    /*font-size: 15px !important*/
+}
+
+#zh-list-meta-wrap {
+    margin: 0 -14px -7px !important;
+    font-size: 13px !important;
+}
+
+.zm-item-meta .zm-item-meta-actions {
+    padding: 10px 14px !important;
+    margin: 0 !important;
+    background-color: #f9fafb !important;
+    border-radius: 0 0 3px 3px !important;
 }
 
 #zh-clear-all-draft {
@@ -894,11 +927,15 @@ button[class*="zg-btn zg-btn-follow zm-rich-follow-btn small"] {
 }
 
 #zh-draft-item-list .zm-item-meta {
-    margin: 10px -14px -10px -14px !important
+    margin: 8px 0 0 0 !important
 }
 
 #zh-favlist-following-wrap .zm-item-meta {
     margin: 10px -14px -10px -14px !important
+}
+
+.zu-main .zu-main-content-inner {
+    margin: 0 290px 0 0;
 }
 
 .zu-main .zu-main-content-inner .section-title h2 {
@@ -989,7 +1026,7 @@ button[class*="zg-btn zg-btn-follow zm-rich-follow-btn small"] {
     border: 1px solid #d3d9de !important;
     border-radius: 3px !important;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
-    margin: 0 !important
+    margin: 0 0 20px !important
 }
 
 .zm-profile-header {
@@ -1238,11 +1275,6 @@ div[class="zm-profile-side-section zm-profile-side-search-section"] {
     display: none !important
 }
 
-#zh-fav-head-title {
-    margin: 0 !important;
-    font-size: 15px !important
-}
-
 #zh-single-list-page-wrap #zh-list-title {
     height: 28px !important;
     padding: 7px 14px !important;
@@ -1264,7 +1296,9 @@ div[class="zm-profile-side-section zm-profile-side-search-section"] {
     height: auto !important
 }
 
-#zh-list-desc, #zh-list-meta-wrap {
+#zh-list-desc
+/*, #zh-list-meta-wrap */
+{
     margin: 0 !important;
     font-size: 14px !important
 }
@@ -1752,6 +1786,10 @@ div[class="zm-comment-form expanded"] {
     right: 10px !important
 }
 
+.Sorter#zh-draft-filter {
+    margin-top: 8px !important;
+}
+
 .zu-main.with-indention-votebar .zu-main-content-inner {
     margin-left: 0 !important
 }
@@ -1777,7 +1815,11 @@ div[class="zm-comment-form expanded"] {
     padding: 1em !important;
     border-top: 1px solid #eee !important;
     border-radius: 0 0 4px 4px !important;
-    background: #fbfbfb !important
+    background: #f9fafb !important
+}
+
+._CommentForm_bordered_2isg {
+    background-color: #f9fafb !important;
 }
 
 ._CommentItem_root_PQNS ._CommentForm_expanded_39uD {
@@ -1786,4 +1828,16 @@ div[class="zm-comment-form expanded"] {
 
 .ProfileProgress, .ProfileEditCard {
     background-color: #fff !important
+}
+
+#zh-question-answer-form-wrap .zm-editable-editor-wrap .zm-command {
+    padding: 10px 0 !important;
+}
+
+.zh-question-answer-wrapper .item-collapse.is-sticky, .awesome-answer-list .item-collapse.is-sticky {
+    left: 700px !important;
+}
+
+.zm-side-my-columns .column-homepage {
+    margin-bottom: 7px !important;
 }
