@@ -1297,7 +1297,7 @@ div[class="zm-profile-side-section zm-profile-side-search-section"] {
 }
 
 #zh-list-desc
-/*, #zh-list-meta-wrap */
+    /*, #zh-list-meta-wrap */
 {
     margin: 0 !important;
     font-size: 14px !important
@@ -1803,6 +1803,14 @@ div[class="zm-comment-form expanded"] {
     right: -6px !important
 }
 
+.SidebarListNav-list {
+    margin-right: -10px !important;
+}
+
+.SidebarListNav-listItem:last-child {
+    margin-bottom: 0 !important;
+}
+
 #zh-question-meta-wrap {
     margin-bottom: 20px !important;
     border: solid 1px #d3d9de !important;
@@ -1839,5 +1847,67 @@ div[class="zm-comment-form expanded"] {
 }
 
 .zm-side-my-columns .column-homepage {
-    margin-bottom: 7px !important;
+    /*margin-bottom: 7px !important;*/
+}
+
+.HomeEntry {
+    margin-bottom: 20px !important;
+}
+
+.HomeEntry-avatar img {
+    border: solid 1px #d3d9de !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+}
+
+.HomeEntry-box {
+    background-color: #fff !important;
+    border: solid 1px #d3d9de !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+}
+
+.HomeEntry-boxArrow:before {
+    border-top-color: #D3D9DE !important;
+}
+
+.HomeEntry-draft {
+    margin-right: 10px !important;
+}
+
+#zh-list-collection-wrap .zm-item {
+    background-color: #fff !important;
+    border: 1px solid #d3d9de !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+    margin: 0 0 20px !important;
+    padding: 14px 14px 10px !important;
+}
+
+#zh-list-collection-wrap .zm-item h2 {
+    font-size: 15px !important;
+}
+
+.zm-item-fav .zm-item-meta-extra {
+    position: absolute !important;
+    margin-left: 0 !important;
+    top: 14px !important;
+    right: 14px !important;
+    width: 2em !important;
+    line-height: 16px !important;
+}
+
+html.no-touchevents .tab-navs .tab-nav>a:hover {
+    border-bottom: none !important;
+}
+
+.tab-navs .tab-nav>a {
+    padding: 8px 15px !important;
+}
+
+.tab-navs .tab-nav.active>a {
+    border: 1px solid #d3d9de !important;
+    border-radius: 3px 3px 0 0 !important;
+}
+
+.tab-navs {
+    border-bottom: solid 1px #d3d9de !important;
 }
