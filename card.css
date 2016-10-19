@@ -1843,7 +1843,8 @@ div[class="zm-comment-form expanded"] {
 }
 
 .zh-question-answer-wrapper .item-collapse.is-sticky, .awesome-answer-list .item-collapse.is-sticky {
-    left: 700px !important;
+    /*left: 700px !important;*/
+    margin-left: -14px !important;
 }
 
 .zm-side-my-columns .column-homepage {
@@ -1910,4 +1911,13 @@ html.no-touchevents .tab-navs .tab-nav>a:hover {
 
 .tab-navs {
     border-bottom: solid 1px #d3d9de !important;
+}
+
+.profile-expert-tip {
+    height: 194px !important;
+    background-size: 100% auto !important;
+}
+
+.zh-backtotop {
+    margin-left: 210px !important;
 }
