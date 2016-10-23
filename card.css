@@ -1558,7 +1558,24 @@ div[class="zm-profile-side-section zm-profile-side-search-section"] {
     border: none !important
 }
 
-.search-tabs {
+/*.search-tabs {
+    background-color: #f9fafb !important;
+    border: 1px solid #d3d9de !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px !important;
+    overflow: hidden !important
+}*/
+
+/*.search-tabs .tab-navs {
+    margin: 0 !important;
+    border: none !important;
+    display: flex !important
+}*/
+
+.tab-navs {
+    margin: 0 !important;
+    display: flex !important;
     background-color: #f9fafb !important;
     border: 1px solid #d3d9de !important;
     border-radius: 3px !important;
@@ -1567,28 +1584,22 @@ div[class="zm-profile-side-section zm-profile-side-search-section"] {
     overflow: hidden !important
 }
 
-.search-tabs .tab-navs {
-    margin: 0 !important;
-    border: none !important;
-    display: flex !important
-}
-
-.search-tabs .tab-navs .tab-nav {
+.tab-navs .tab-nav {
     margin: 0 !important;
     font-size: 14px !important;
     flex: 1 !important
 }
 
-.search-tabs .tab-navs .tab-nav + .tab-nav {
+.tab-navs .tab-nav + .tab-nav {
     border-left: 1px solid #eaf0f5 !important
 }
 
-.search-tabs .tab-navs .tab-nav a {
+.tab-navs .tab-nav a {
     padding: 9px 14px !important;
     border: none !important
 }
 
-html.no-touch .tab-navs .tab-nav > a:hover {
+.tab-navs .tab-nav > a:hover {
     background-color: #fff !important
 }
 
@@ -1620,6 +1631,10 @@ html.no-touch .tab-navs .tab-nav > a:hover {
     margin: 0 !important
 }
 
+.page-search .list.contents .answer {
+    margin: 0 !important
+}
+
 .page-search .zu-main-content-inner .list .answer-item {
     padding: 10px 0 0 !important
 }
@@ -1637,12 +1652,19 @@ html.no-touch .tab-navs .tab-nav > a:hover {
 }
 
 .page-search .entry-body .actions {
-    margin: 0 !important;
+    margin: -14px -14px -16px !important;
+    padding: 10px 14px !important;
+    background-color: #f9fafb !important;
     border-radius: 0 0 3px 3px !important
 }
 
 .page-search ._CommentBox_root_G_1m {
-    margin-top: 1em !important
+    margin: 1em -14px -10px !important;
+    background-color: #fff !important;    
+}
+
+.page-search ._CommentBox_root_G_1m .icon-spike {
+    margin-left: 14px !important;
 }
 
 .powered-by-sogou {
@@ -1900,19 +1922,6 @@ html.no-touchevents .tab-navs .tab-nav>a:hover {
     border-bottom: none !important;
 }
 
-.tab-navs .tab-nav>a {
-    padding: 8px 15px !important;
-}
-
-.tab-navs .tab-nav.active>a {
-    border: 1px solid #d3d9de !important;
-    border-radius: 3px 3px 0 0 !important;
-}
-
-.tab-navs {
-    border-bottom: solid 1px #d3d9de !important;
-}
-
 .profile-expert-tip {
     height: 194px !important;
     background-size: 100% auto !important;
@@ -1920,4 +1929,126 @@ html.no-touchevents .tab-navs .tab-nav>a:hover {
 
 .zh-backtotop {
     margin-left: 210px !important;
+}
+
+.post-view .entry-content {
+    padding: 14px !important;
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+}
+
+.post-view footer {
+    padding: 14px !important;
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+}
+
+.main-container .items-container {
+    padding: 14px !important;
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+}
+
+.page-write .navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important
+}
+
+.post-write .title-img .preview-wrapper {
+    overflow: hidden !important;
+    background-color: #B6C3D2 !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important
+}
+
+.post-write .title-img .upload-controls.empty:after {
+    color: #8F919A !important;
+}
+
+.post-write .title-input-container {
+    box-sizing: border-box !important;
+    margin: 20px 0 !important;
+    padding: 10px 14px !important;
+    background-color: #fff !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.post-write .title {
+    height: 32px !important;
+    min-height: 32px !important;
+    line-height: 32px !important;
+    font-size: 26px !important;
+    color: #333 !important;
+}
+
+.post-write .toolbar-holder {
+    border-top: none !important;
+    border-radius: 4px 4px 0 0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important
+}
+
+.post-write.full-screen-cover .toolbar-holder {
+    margin-top: 64px !important
+}
+
+.post-write .editable-container {
+    width: 660px !important;
+    margin: 0 auto !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important
+}
+
+.post-write .entry-content {
+    padding: 10px 14px 160px !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 0 4px 4px !important;
+}
+
+.QuestionSuggestListTitle {
+    font-size: 15px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    background-color: #f9fafb !important;
+    border: 1px solid #d3d9de !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+    padding: 7px 14px !important;
+    margin: 0 0 20px 0 !important;
+}
+
+.zm-tag-editor-edit-item {
+    background-color: #fff !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+}
+
+.QuestionInvitedTitle h4 {
+    font-size: 15px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    background-color: #f9fafb !important;
+    border: 1px solid #d3d9de !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+    padding: 7px 14px !important;
+    margin: 0 0 20px 0 !important;
+}
+
+.community-copyright-content, #react .Community-main, .zh-friendliness-content {
+    background-color: #fff !important;
+    border: 1px solid #d3d9de !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px !important;
+    padding: 10px 14px 10px 14px !important;
+}
+
+.zh-document-sidenav.zh-friendliness-sidenav {
+    margin-top: -20px !important;
+    background-color: #fff !important;
+    border: 1px solid #d3d9de !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
