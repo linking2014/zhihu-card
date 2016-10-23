@@ -1652,7 +1652,7 @@ div[class="zm-profile-side-section zm-profile-side-search-section"] {
 }
 
 .page-search .entry-body .actions {
-    margin: -14px -14px -16px !important;
+    margin: 0 -14px -16px !important;
     padding: 10px 14px !important;
     background-color: #f9fafb !important;
     border-radius: 0 0 3px 3px !important
